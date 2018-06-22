@@ -115,10 +115,11 @@ div {
 .itemtitle
 {
 	float: right;
+	font-size: 125%;
 	border : 1px solid black;
 	text-align: center;
 	width:30%;
-	height:20px;
+	height:25px;
 }
 
 #chicken {
