@@ -1,0 +1,138 @@
+* { 
+  box-sizing: border-box; }
+
+body {
+	color : blue;
+	font-family:  serif, sans-serif;
+	background-color: yellow;
+	border:none;
+}
+
+h1 {
+    text-align:center;
+    font-size: 175%;
+}
+
+.row {
+	width:100%;
+	border:none;
+}
+p {
+ 	border: none;
+ 	clear: right;
+ 	background-color: grey;
+ 	width:90%;
+ 	margin-left:auto;
+ 	margin-right:auto;
+ }
+
+@media(min-width: 768px) and (max-width: 991px) {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6,
+	.col-md-12 {
+		float: left;
+		border:none;
+	}
+
+.col-md-1 {
+	width: 8.33%;
+}
+
+.col-md-2 {
+	width: 16.66%;
+}
+
+.col-md-3 {
+	width: 25%;
+}
+
+.col-md-4 {
+	width: 33%;
+}
+
+.col-md-6 {
+	width: 50%;
+}
+
+.col-md-12 {
+	width: 100%;
+}
+
+}
+
+@media(min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-6,
+	.col-lg-12 {
+		float: left;
+		border:none;
+	}
+
+
+.col-lg-1 {
+	width: 8.33%;
+}
+
+.col-lg-2 {
+	width: 16.66%;
+}
+
+.col-lg-3 {
+	width: 25%;
+}
+
+.col-lg-4 {
+	width: 33.33%;
+}
+
+.col-lg-6 {
+	width: 50%;
+}
+
+.col-lg-12 {
+	width: 100%;
+}
+}
+
+div { 
+	box-sizing: border-box;
+	border: none;
+   
+}
+
+.content {
+	width:90%;
+	padding: 0px 0px 0px 5px;
+	background-color: grey;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+	position: relative;
+
+}
+
+
+.itemtitle
+{
+	float: right;
+	border : 1px solid black;
+	text-align: center;
+	font-family:  serif, sans-serif;
+	width:30%;
+	height:20px;
+}
+
+#chicken {
+	color : purple;
+background-color: orange;
+}
+#beef {
+
+	color :darkgreen;
+	background-color: red;
+
+}
+
+#sushi {
+	color : white;
+	background-color: darkblue;
+	
+}
